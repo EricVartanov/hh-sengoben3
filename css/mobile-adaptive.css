@@ -14,9 +14,14 @@
     } */
 
     /*для индекс 3!!!! */
-    .idc-verdana18 {
-        font-size: 16px;
-        line-height: 19px;
+    .idc-head .idc-verdana18 {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 30px;
+    }
+    /*для индекс 3!!!! */
+    .idc-logo{
+        width: 73px;
     }
     .idc-bg-img {
         width: 71.5%;
@@ -45,7 +50,7 @@
     }
 
     /*для индекс 3!!!! */
-    .idc-head .idc-subtitle{
+    .idc-head .idc-subtitle {
         max-width: 32vw;
     }
 }

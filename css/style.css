@@ -175,10 +175,18 @@ svg {
     padding-top: 30px;
     padding-bottom: 70px;
 } */
-/* для индекс 2 и 3 !!!! */
+/* для индекс 2 !!!! */
 .idc-head .idc-container {
     position: relative;
     padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/* для индекс 3 !!!! */
+.idc-head .idc-container {
+    position: relative;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -206,7 +214,7 @@ svg {
     font-size: 28px;
     line-height: 35px;
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
     color: #18428b;
     max-width: none;
 }
