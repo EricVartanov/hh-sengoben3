@@ -1,0 +1,205 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*для индекс 1 и 2!!!! */
+    /* .idc-verdana18 {
+        font-size: 16px;
+        line-height: 19px;
+    } */
+
+    /*для индекс 3!!!! */
+    .idc-verdana18 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-bg-img {
+        width: 71.5%;
+    }
+
+    /*для индекс 1!!!! */
+    /* .idc-man-img {
+        width: 203px;
+    } */
+
+    /*для индекс 2!!!! */
+    /* .idc-man-img {
+        width: 198px;
+        right: 15%;
+    } */
+    /*для индекс 3!!!! */
+    .idc-man-img {
+        width: 192px;
+        right: 15%;
+    }
+
+    /*для индекс 3!!!! */
+    .idc-head .idc-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /*для индекс 3!!!! */
+    .idc-head .idc-subtitle{
+        max-width: 32vw;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-bgwrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+    .idc-bg-img {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .idc-bg-color {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        height: 83px;
+        background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#42b1b2),
+            to(#1197d6)
+        );
+        background: -o-linear-gradient(top, #42b1b2 0%, #1197d6 100%);
+        background: linear-gradient(180deg, #42b1b2 0%, #1197d6 100%);
+    }
+
+    /*для индекс 1!!!! */
+    /* .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 100px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    } */
+
+    /*для индекс 2 !!!! */
+    /* .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 70px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    } */
+    /*для индекс 3 !!!! */
+    .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 75px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .idc-logo-block {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+    .idc-logo {
+        width: 63px;
+    }
+    .idc-head .idc-verdana18 {
+        max-width: 109px;
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: auto;
+    }
+    .idc-title-block {
+        max-width: 100%;
+    }
+
+    /*для индекс 1 и 2!!!! */
+    /* .idc-head .idc-title {
+        margin-top: 30px;
+        font-size: 6.2vw;
+        line-height: 7.5vw;
+        max-width: 75vw;
+    } */
+
+    /*для индекс 3!!!! */
+    .idc-head .idc-title {
+        margin-top: 30px;
+        font-size: 6.2vw;
+        line-height: 7.5vw;
+        max-width: 100%;
+    }
+    .idc-head .idc-subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 60vw;
+    }
+
+    /*для индекс 1!!!! */
+    /* .idc-man-img {
+        right: 0;
+        width: 191px;
+    } */
+
+    /*для индекс 2!!!! */
+    /* .idc-man-img {
+        width: 166px;
+        right: 0;
+    } */
+
+    /*для индекс 3!!!! */
+    .idc-man-img {
+        width: 130px;
+        right: 0;
+    }
+    /* ******info**** */
+    .idc-info p > strong {
+        line-height: 110%;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 18px;
+    }
+
+    .idc-info ul li::before {
+        top: 8px;
+        width: 6px;
+        height: 6px;
+    }
+
+    /* ******footer*** */
+    .idc-footer .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-footer .idc-title {
+        font-size: 5vw;
+        line-height: 5.5vw;
+        letter-spacing: 0.01em;
+    }
+}
